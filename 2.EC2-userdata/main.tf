@@ -34,7 +34,7 @@ module "ec2" {
   user_data_file     = "${path.module}/user-data.txt" # ✅ FIXED
   instance_name      = "stockholm-web"        # ✅ FIXED
 }
-#
+
 
 resource "aws_route_table_association" "public_subnet_association" {
   subnet_id      = module.subnet.subnet_id
