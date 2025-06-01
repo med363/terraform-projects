@@ -1,7 +1,5 @@
-variable "vpc_id" {
-  
+variable "vpc_id" {                             # Variable for the VPC ID
 }
 
-variable "name" {
-  
+variable "name" {                               # Variable for the security group name (used also in tag)
 }
